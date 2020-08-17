@@ -1,0 +1,38 @@
+.footer{
+    background-color: #E4E4E4;
+    &-block{
+       padding: 16px 40px 58px 284px;
+       &__media{
+           p{
+            font-weight: bold;
+            font-size: 20px;
+            color: #515151;
+            margin-bottom: 14px;
+           }
+           a{
+               width: 44px;
+               height: 44px;
+               &+a{
+                   margin-left: 29px;
+               }
+           }
+       }
+       &__politic{
+           a{
+        font-size: 12px;
+        text-decoration-line: underline;
+        color: #1E6EB7;
+        &+a{
+            margin-left: 50px;
+        }
+       }
+     }
+     &__mail{
+         p{
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+         }
+     }
+    }
+}
