@@ -2,17 +2,33 @@
     background-color: #E4E4E4;
     &-block{
        padding: 16px 40px 58px 284px;
+       @include lg{
+        padding: 16px 20px 38px 150px;
+       }
+       @include sm{
+        padding: 10px 0;
+       }
        &__media{
            p{
             font: 20px $Bold;
             color: #515151;
             margin-bottom: 14px;
+            @include lg{
+                font: 15px $Bold;
+            }
            }
            a{
                width: 44px;
                height: 44px;
+               @include lg{
+                   width: 30px;
+                   height: 30px;
+               }
                &+a{
                    margin-left: 29px;
+                   @include lg{
+                    margin-left: 20px;
+                }
                }
            }
        }
