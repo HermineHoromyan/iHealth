@@ -69,8 +69,7 @@
                 }
 
                 span {
-                  font-weight: bold;
-                  font-size: 10px;
+                  font: 10px $Bold;
                   text-decoration-line: line-through;
                   color: #999999;
                   margin: 4px 0 0 8px;
@@ -93,7 +92,7 @@
         background-color: #00ac64;
 
         p {
-          font-size: 18px;
+          font: 18px $Regular;
           color: #ffffff;
         }
 
@@ -102,8 +101,7 @@
             background-color: #00ff66;
             border-radius: 12px;
             padding: 6px 17px;
-            font-weight: bold;
-            font-size: 22px;
+            font: 22px $Bold;
             color: #ffffff;
           }
         }
@@ -119,8 +117,7 @@
       background-color: white;
 
       p {
-        font-weight: bold;
-        font-size: 16px;
+        font: 16px $Bold;
         color: #000000;
       }
 
@@ -139,7 +136,7 @@
           padding: 11px 36px;
           background: #f77702;
           border-radius: 12px;
-          font-size: 14px;
+          font: 14px $Bold;
           color: #ffffff;
         }
       }
@@ -167,8 +164,7 @@
             margin-bottom: 11px;
             h3 {
               margin-bottom: 13px;
-              font-weight: bold;
-              font-size: 24px;
+              font: 24px $Bold;
               color: #000000;
               margin-bottom: 22px;
             }
@@ -185,8 +181,7 @@
               margin-right: 21px;
               span {
                 display: block;
-                font-weight: bold;
-                font-size: 18px;
+                font: 18px $Bold;
                 color: #acacac;
               }
               i {
