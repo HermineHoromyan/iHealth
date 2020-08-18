@@ -448,6 +448,10 @@ display: none;  }
           @include sm{
             height: auto;
           }
+          @include xs{
+            height: auto;
+            max-width: 170px;
+          }
         }
         &--likes {
           margin-top: 22px;
